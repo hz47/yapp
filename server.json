@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.reambergmbh/yapp",
+  "title": "Yapp",
+  "description": "Publish a webpage to a live URL straight from your AI. HTML, PDF, ZIP, images, landing pages.",
+  "version": "2.0.0",
+  "repository": {
+    "url": "https://github.com/reambergmbh/yapp",
+    "source": "github"
+  },
+  "websiteUrl": "https://yapp.page",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yapp.page/mcp"
+    }
+  ]
+}
